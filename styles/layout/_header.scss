@@ -1,0 +1,17 @@
+header{
+  h1{
+    color: blue;
+    text-align: center;
+
+    &::after{
+      content: "*";
+      position: absolute;
+      transform: translateY(-6px);
+      color: $color1;
+      transition: 0.2s;
+    }
+    &:hover::after{
+      color: green;
+    }
+  }
+}

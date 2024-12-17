@@ -1,7 +1,11 @@
-body{
-  background: red;
-  
-  &:hover{
-    background: green;
-  }
-}
+// Index.scss rassemble tous les fichiers SASS
+
+// settings.scss doit être mis en premier pour que SASS connaisse les variables
+@import "./settings";
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/navbar";
+@import "./layout/section";
+@import "./components/buttons";
+@import "./pages/about";
+@import "./pages/home";

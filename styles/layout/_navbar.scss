@@ -1,0 +1,14 @@
+nav {
+  background: pink;
+  border-radius: 20px;
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    li {
+      list-style: none;
+    }
+  }
+}
